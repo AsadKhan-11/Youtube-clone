@@ -2,6 +2,29 @@
   display: flex;
   gap: 10px;
 }
+
+.container {
+  width: 350px;
+}
+
 .info {
   display: flex;
+  gap: 10px;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+}
+.vid-img {
+  height: 230px;
+  width: 350px;
+  border-radius: 12px;
+}
+.txt-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  color: white;
 }

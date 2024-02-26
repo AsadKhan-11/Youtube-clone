@@ -17,6 +17,11 @@ function Genres() {
         </nav>
         <div className="content">
           <Videos />
+          <Videos />
+          <Videos />
+          <Videos />
+          <Videos />
+          <Videos />
         </div>
       </nav>
     </>

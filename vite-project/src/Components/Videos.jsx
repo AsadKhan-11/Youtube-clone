@@ -1,15 +1,16 @@
 import React from "react";
+import github from "./images/github.png";
 import "./Videos.css";
 function Videos() {
   return (
     <>
       <div className="container">
-        <img src="" />
+        <img className="vid-img" src={github} />
 
         <div className="info">
-          <img className="logo" />
+          <img className="logo" src={github} />
           <div className="txt-container">
-            <h2 className="title">Snooker moments</h2>
+            <h3 className="title">Snooker moments</h3>
             <p className="youtuber">Snooker hub</p>
             <div className="duration">
               <p className="views">482k views</p>
