@@ -1,11 +1,10 @@
 .double-nav {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 80px 1fr;
   background-color: grey;
 }
 .bar {
   display: grid;
-  grid-template-columns: 200px 1fr;
-  grid-template-rows: 100%;
-  background-color: grey;
+  grid-template-columns: 120px 1fr;
+  height: 100vh;
 }

@@ -1,0 +1,7 @@
+.duration {
+  display: flex;
+  gap: 10px;
+}
+.info {
+  display: flex;
+}

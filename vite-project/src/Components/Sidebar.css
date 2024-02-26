@@ -1,4 +1,8 @@
 .sidebar {
-  background-color: grey;
-  height: 100%;
+  background-color: blue;
+}
+
+.y-icons {
+  height: 35px;
+  width: 35px;
 }
