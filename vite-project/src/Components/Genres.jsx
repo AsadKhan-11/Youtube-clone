@@ -7,6 +7,12 @@ import Federer from "./images/Federer.jpg";
 import Jordan from "./images/Jordan.jpg";
 import Kohli from "./images/Kohli.jpg";
 import Ronnie from "./images/Ronnie.jpg";
+import nba from "./images/logos/nba.png";
+import cricket from "./images/logos/cric.jpg";
+import gym from "./images/logos/dumbell.jpg";
+import snooker from "./images/logos/snooker.jpg";
+import football from "./images/logos/football.avif";
+import federer from "./images/logos/federer.jpg";
 
 function Genres() {
   return (
@@ -25,7 +31,7 @@ function Genres() {
         <div className="content">
           <Videos
             img={Coleman}
-            logo=""
+            logo={gym}
             title="Training with 8 times Champion"
             name="Weightlifter"
             views="198K views"
@@ -33,7 +39,7 @@ function Genres() {
           />
           <Videos
             img={Cr7}
-            logo=""
+            logo={football}
             title="Cristiano Ronaldo Is Back to HIS BEST at 38!"
             name="Football fans"
             views="759K views"
@@ -41,7 +47,7 @@ function Genres() {
           />
           <Videos
             img={Federer}
-            logo=""
+            logo={federer}
             title="Federer at his best"
             name="Federer fanclub"
             views="200K views"
@@ -49,7 +55,7 @@ function Genres() {
           />
           <Videos
             img={Jordan}
-            logo=""
+            logo={nba}
             title="How Michael Jordan Broke 'The Jordan Rules'"
             name="NBA diaries"
             views="354K views"
@@ -57,7 +63,7 @@ function Genres() {
           />
           <Videos
             img={Kohli}
-            logo=""
+            logo={cricket}
             title="Virat Kohli | Life, Career, Cricket, Awards & Facts"
             name="The ashes"
             views="500K views"
@@ -65,7 +71,7 @@ function Genres() {
           />
           <Videos
             img={Ronnie}
-            logo=""
+            logo={snooker}
             title="Best Snooker moments"
             name="360 snooker"
             views="442K views"

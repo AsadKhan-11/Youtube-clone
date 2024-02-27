@@ -7,9 +7,9 @@ function Videos(props) {
         <img className="vid-img" src={props.img} />
 
         <div className="info">
-          <img className="logo" src />
+          <img className="logo" src={props.logo} />
           <div className="txt-container">
-            <h3 className="title">{props.title}</h3>
+            <h4 className="title">{props.title}</h4>
             <p className="youtuber">{props.name}</p>
             <div className="duration">
               <p className="views">{props.views}</p>
