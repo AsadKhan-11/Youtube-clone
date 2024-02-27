@@ -1,20 +1,19 @@
 import React from "react";
-import github from "./images/github.png";
 import "./Videos.css";
-function Videos() {
+function Videos(props) {
   return (
     <>
       <div className="container">
-        <img className="vid-img" src={github} />
+        <img className="vid-img" src={props.img} />
 
         <div className="info">
-          <img className="logo" src={github} />
+          <img className="logo" src />
           <div className="txt-container">
-            <h3 className="title">Snooker moments</h3>
-            <p className="youtuber">Snooker hub</p>
+            <h3 className="title">{props.title}</h3>
+            <p className="youtuber">{props.name}</p>
             <div className="duration">
-              <p className="views">482k views</p>
-              <p className="time">1 month ago </p>
+              <p className="views">{props.views}</p>
+              <p className="time">{props.time}</p>
             </div>
           </div>
         </div>

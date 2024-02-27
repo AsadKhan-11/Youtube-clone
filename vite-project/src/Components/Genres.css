@@ -22,3 +22,9 @@
   row-gap: 100px;
   padding: 20px;
 }
+.title,
+.name,
+.views,
+.time {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
