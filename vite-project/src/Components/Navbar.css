@@ -16,7 +16,7 @@ ion-icon {
 .icons {
   display: flex;
   justify-content: space-between;
-  width: 80px;
+  width: 100px;
   align-items: center;
 }
 
@@ -33,8 +33,9 @@ ion-icon {
   color: white;
   font-size: 20px;
   margin-left: -6px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-weight: 300;
+  font-size: 22px;
+  font-weight: 600;
+  font-family: Oswald, sans-serif;
 }
 
 .search {
@@ -93,13 +94,14 @@ ion-icon {
   align-items: center;
 }
 
-:where(.upload, .noti, .mail) :hover {
+:where(.menu, .upload, .noti, .mail) :hover {
   background-color: rgb(49, 49, 49);
 }
 
 .upload,
 .noti,
-.mail {
+.mail,
+.menu {
   color: white;
   cursor: pointer;
   background-color: transparent;
