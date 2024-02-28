@@ -38,18 +38,39 @@ ion-icon {
 }
 
 .search {
-  width: 500px;
+  width: 600px;
   border-radius: 20px;
   border: 1px solid grey;
-  height: 45px;
+  height: 40px;
   outline: none;
   padding-left: 10px;
+  background-color: transparent;
+  border: 1px solid rgb(75, 75, 75);
+  overflow: hidden;
+  color: white;
+}
+
+.search-btn {
+  box-sizing: content-box;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  right: 39px;
+  background-color: rgb(46, 46, 46);
+  padding: 15px 25px;
+  color: white;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border: none;
+  cursor: pointer;
 }
 
 .search-box {
   display: flex;
   align-items: center;
   gap: 20px;
+  position: relative;
+  overflow: hidden;
 }
 
 .mic {
@@ -60,34 +81,39 @@ ion-icon {
 
 .btns {
   width: 150px;
+  height: 40px;
   display: flex;
-  justify-content: space-between;
+
+  gap: 30px;
+  align-items: center;
 }
 
 :where(.mic, .upload, .noti, .mail) :hover {
   border-radius: 50%;
-
-  background-color: rgb(64, 69, 58);
+  background-color: rgb(49, 49, 49);
+  stroke: white;
 }
 
 .upload,
 .mic,
 .noti,
 .mail {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-  color: white;
-  border: 1px solid grey;
-  cursor: pointer;
-}
-.upload,
-.noti,
-.mail {
-  background-color: grey;
-}
-
-.nav-icon {
+  box-sizing: content-box;
   height: 25px;
   width: 25px;
+
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+  border: transparent;
+}
+
+.nav-icon,
+.mic {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
