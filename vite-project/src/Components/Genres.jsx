@@ -27,6 +27,17 @@ function Genres() {
           <button className="genre-btn">Game shows</button>
           <button className="genre-btn">Mixes</button>
           <button className="genre-btn">Gaming</button>
+          <button className="genre-btn">Football</button>
+
+          <button className="genre-btn">Tennis</button>
+
+          <button className="genre-btn">Snooker</button>
+
+          <button className="genre-btn">Gym</button>
+
+          <button className="genre-btn">Cricket</button>
+
+          <button className="genre-btn">Baseball</button>
         </nav>
         <div className="content">
           <Videos
