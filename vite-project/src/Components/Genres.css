@@ -24,11 +24,16 @@
 }
 .genres-container {
   display: grid;
-  grid-template-rows: 40px 1fr 600px;
+  grid-template-rows: 40px 1fr 1fr;
 }
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 40px;
   padding: 20px;
+  margin-bottom: 40px;
+}
+.shorts-grid {
+  display: flex;
+  gap: 25px;
 }

@@ -13,6 +13,7 @@ import gym from "./images/logos/dumbell.jpg";
 import snooker from "./images/logos/snooker.jpg";
 import football from "./images/logos/football.avif";
 import federer from "./images/logos/federer.jpg";
+import Shorts from "./Shorts.jsx";
 
 function Genres() {
   return (
@@ -88,6 +89,13 @@ function Genres() {
             views="442K views"
             time="3 weeks ago"
           />
+        </div>
+        {/* <h1>Shorts</h1> */}
+        <div className="shorts-grid">
+          <Shorts />
+          <Shorts />
+          <Shorts />
+          <Shorts />
         </div>
       </nav>
     </>

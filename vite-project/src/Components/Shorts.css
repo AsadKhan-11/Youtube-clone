@@ -1,0 +1,22 @@
+.shorts-container {
+  height: 450px;
+  max-height: 500px;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.shorts-img {
+  height: 380px;
+  width: 230px;
+  border-radius: 12px;
+}
+.shorts-title {
+  color: white;
+  font-family: Rubik;
+  font-weight: 500;
+}
+.shorts-views {
+  font-family: Mulish;
+  color: grey;
+}

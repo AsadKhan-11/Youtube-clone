@@ -12,7 +12,9 @@ function Videos(props) {
             <h4 className="title">{props.title}</h4>
             <p className="youtuber">{props.name}</p>
             <div className="duration">
-              <p className="views">{props.views}</p>
+              <p className="views">
+                {props.views} <span> .</span>{" "}
+              </p>
               <p className="time">{props.time}</p>
             </div>
           </div>
