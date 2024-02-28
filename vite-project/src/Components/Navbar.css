@@ -55,7 +55,7 @@ ion-icon {
   position: absolute;
   height: 20px;
   width: 20px;
-  right: 39px;
+  right: 60px;
   background-color: rgb(46, 46, 46);
   padding: 15px 25px;
   color: white;
@@ -68,7 +68,7 @@ ion-icon {
 .search-box {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   position: relative;
   overflow: hidden;
 }
@@ -76,44 +76,53 @@ ion-icon {
 .mic {
   display: flex;
   justify-content: center;
-  background-color: rgb(58, 58, 58);
+  color: white;
+  cursor: pointer;
+  border: transparent;
+  background-color: transparent;
 }
 
 .btns {
   width: 150px;
   height: 40px;
+  box-sizing: content-box;
+
   display: flex;
 
-  gap: 30px;
+  gap: 10px;
   align-items: center;
 }
 
-:where(.mic, .upload, .noti, .mail) :hover {
-  border-radius: 50%;
+:where(.upload, .noti, .mail) :hover {
   background-color: rgb(49, 49, 49);
-  stroke: white;
 }
 
 .upload,
-.mic,
 .noti,
 .mail {
-  box-sizing: content-box;
-  height: 25px;
-  width: 25px;
-
-  border-radius: 50%;
   color: white;
   cursor: pointer;
   background-color: transparent;
   border: transparent;
 }
 
-.nav-icon,
-.mic {
+svg.nav-icon,
+.nav-icon {
+  border-radius: 50%;
+  padding: 10px;
+  box-sizing: content-box;
+}
+
+.nav-icon {
   height: 20px;
   width: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.mic svg {
+  background-color: rgb(36, 36, 36);
+}
+.mic svg:hover {
+  background-color: rgb(49, 49, 49);
 }
